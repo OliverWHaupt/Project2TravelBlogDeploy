@@ -8,7 +8,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'mapbox-gl'
+        'mapbox-gl',
+        '@mapbox/mapbox-gl-geocoder'
       ]
     }
   },
