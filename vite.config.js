@@ -10,7 +10,7 @@ export default defineConfig({
       external: [
         'mapbox-gl',
         '@mapbox/mapbox-gl-geocoder',
-        'mapbox-gl.css'
+        'mapbox-gl/dist/mapbox-gl.css',
       ]
     }
   },
